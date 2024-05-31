@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= noticia.titulo %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/styleNoticia.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h1>Etec Informa</h1></a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <article>
+            <h1><%= noticia.titulo %></h1>
+            <p><%= noticia.conteudo %></p>
+            <p><em>Autor: <%= noticia.autor %></em></p>
+            <button type="button" class="btn btn-dark"><a href="/">Voltar</a></button>
+            
+        </article>
+    </main>
+    
+</body>
+</html>
+

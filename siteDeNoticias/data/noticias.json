@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "titulo": "Mudança do curriculo!",
+      "conteudo": "O professor Everson muda grade curricular de PW e passa NodeJS ao invés de PHP e alunos agradecem!!!",
+      "autor": "Anderson Reis"
+    },
+    {
+      "id": 2,
+      "titulo": "Sem professores",
+      "conteudo": "Dada a desistencia de professores no processo seletivo, fez com que o CPS reinicie o processo!",
+      "autor": "Anderson Reis"
+    },
+    {
+        "id": 3,
+        "titulo": "Sistema de Agendamento de Laboratorios",
+        "conteudo": "Alunos do 2DS juntos ao Yan, estão desenvolvendo um projeto pra etec, o SAL, em breve mais informações!",
+        "autor": "Matheus Vinicius"
+      },
+      {
+        "id": 4,
+        "titulo": "Professor Everson!",
+        "conteudo": "O professor Everson, o melhor e mais lindo, vai nos dar MB nesse projeto(-_-) ",
+        "autor": "Matheus Vinicius"
+      }
+  ]
+  

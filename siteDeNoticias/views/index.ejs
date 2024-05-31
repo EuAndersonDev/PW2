@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Notícias</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Adicionando Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h1>Etec Informa</h1></a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            </div>
+        </div>
+    </nav>
+    
+    <main class="main">
+        <% noticias.forEach(noticia => { %>
+            <div class="noticia">
+                <h2><%= noticia.titulo %></h2>
+                <p><%= noticia.autor %></p>
+                <button type="button" class="btn btn-dark"><a href="/noticia/<%= noticia.id %>">Saber mais</a></button>
+            </div>
+        <% }) %>
+    </main>
+</body>
+</html>
