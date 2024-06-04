@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "titulo": "Mudança do curriculo!",
+      "sub-titulo":"Node",
+      "conteudo": "O professor Everson muda grade curricular de PW e passa NodeJS ao invés de PHP e alunos agradecem!!!",
+      "autor": "Anderson Reis",
+      "data":"02/06",
+      "imagem":"img/news-700x435-1.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Sem professores",
+      "sub-titulo":"Restart",
+      "conteudo": "Dada a desistencia de professores no processo seletivo, fez com que o CPS reinicie o processo!",
+      "autor": "Anderson Reis",
+      "data":"02/06",
+      "imagem":"img/news-700x435-2.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Sistema de Agendamento de Laboratorios",
+        "sub-titulo":"Inovação",
+        "conteudo": "Alunos do 2DS juntos ao Yan, estão desenvolvendo um projeto pra etec, o SAL, em breve mais informações!",
+        "autor": "Matheus Vinicius",
+        "data":"02/06",
+        "imagem":"img/news-700x435-3.jpg"
+      },
+      {
+        "id": 4,
+        "titulo": "Professor Everson!",
+        "sub-titulo":"Os puxas",
+        "conteudo": "O professor Everson, o melhor e mais lindo, vai nos dar MB nesse projeto(-_-) ",
+        "autor": "Matheus Vinicius",
+        "data":"02/06",
+        "imagem":"img/news-700x435-4.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "Café do 2Ds",
+        "sub-titulo":"Comer",
+        "conteudo": "Alunos organizam café da manhã! ",
+        "autor": "Matheus Vinicius",
+        "data":"02/06",
+        "imagem":"img/news-700x435-5.jpg"
+      }
+  ]
+  

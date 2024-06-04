@@ -1,0 +1,101 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para o título da notícia */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para o conteúdo da notícia */
+.card-text {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilos para o botão de voltar */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+/* Estilos para o link no rodapé */
+.card-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o topbar */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Estilos para o navbar */
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Estilos para os ícones de mídia social */
+.btn-lg-square {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Estilos para o botão de voltar ao topo */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.back-to-top.show {
+    opacity: 1;
+}
